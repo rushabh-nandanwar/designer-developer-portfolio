@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: #a1a1aa;
+  --color-accent: #3f3f46;
+  --color-background: #050505;
+  --color-text: #f8fafc;
+  --font-display: 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  --glass: rgba(255, 255, 255, 0.02);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50 antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-zinc-900/40 backdrop-blur-md border border-zinc-800;
+  }
+
+  .glass-card {
+    @apply bg-zinc-900/60 backdrop-blur-xl border border-zinc-800 transition-colors duration-300;
+  }
+
+  .text-gradient {
+    @apply text-white;
+    /* Removed gradient for flat look */
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-8 md:px-12 lg:px-24;
+  }
+
+  /* Custom selection color */
+  ::selection {
+    @apply bg-zinc-700 text-white;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full hover:bg-slate-600 transition-colors;
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
