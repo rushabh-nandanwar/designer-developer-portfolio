@@ -4,15 +4,13 @@ export const portfolioData = {
         role: "Designer & Developer",
         tagline: "Crafting digital experiences with code and creativity",
         bio: "I'm a designer who codes, passionate about creating beautiful, functional interfaces that tell stories. With a keen eye for aesthetics and a love for clean code, I bridge the gap between design and development.",
-        email: "rushabhnandanwar2005@gmail.com",
+        email: "rushabhnandanwar0510@gmail.com",
         location: "Nagpur",
     },
 
     social: [
         { name: "GitHub", url: "https://github.com/rushabh-nandanwar", icon: "github" },
         { name: "LinkedIn", url: "https://www.linkedin.com/in/rushabh-nandanwar-28b162321/", icon: "linkedin" },
-        { name: "Dribbble", url: "https://dribbble.com/yourusername", icon: "dribbble" },
-        { name: "Twitter", url: "https://x.com/Rushunandanwar", icon: "twitter" },
     ],
 
     skills: [
@@ -21,17 +19,21 @@ export const portfolioData = {
             items: [
                 { name: "UI/UX Design", level: 95 },
                 { name: "Figma", level: 90 },
-                { name: "Dribble", level: 85 },
+                { name: "Canva", level: 85 },
                 { name: "Prototyping", level: 88 },
             ]
         },
         {
             category: "Development",
             items: [
-                { name: "React.js", level: 92 },
+                { name: "HTML", level: 90 },
+                { name: "CSS", level: 90 },
                 { name: "JavaScript", level: 90 },
+                { name: "React.js", level: 92 },
                 { name: "Tailwind CSS", level: 95 },
-                { name: "GSAP", level: 80 },
+                { name: "NodeJS", level: 80 },
+                { name: "ExpressJS", level: 80 },
+                { name: "MongoDB", level: 80 },
             ]
         },
         {
@@ -39,8 +41,8 @@ export const portfolioData = {
             items: [
                 { name: "Git", level: 85 },
                 { name: "GitHub", level: 82 },
-                { name: "Three.js", level: 75 },
-                { name: "Webflow", level: 78 },
+                { name: "Docker", level: 82 },
+                { name: "VSCode", level: 82 },
             ]
         }
     ],
@@ -48,10 +50,11 @@ export const portfolioData = {
     projects: [
         {
             id: 1,
-            title: "E-commerce Platform",
-            description: "A modern e-commerce platform with seamless user experience and elegant design",
+            title: "CryptoTracker",
+            description: `A cryptocurrency tracking web app that displays real-time market data of various coins.
+            Built using React, Tailwind CSS, and integrated with the CoinGecko API for fetching live crypto prices and info.`,
             image: "/projects/ecommerce.jpg",
-            tags: ["React", "Node.js", "Tailwind CSS", "Stripe"],
+            tags: ["React", "API", "Tailwind CSS", "Stripe", "CoinGecko API"],
             link: "https://project1.com",
             featured: true,
             highlights: [
@@ -63,43 +66,16 @@ export const portfolioData = {
         {
             id: 2,
             title: "Portfolio Website",
-            description: "Creative portfolio showcasing design work with smooth animations",
+            description: `A portfolio website that displays my work and skills.
+            Built using React, Tailwind CSS, and integrated with the CoinGecko API for fetching live crypto prices and info.`,
             image: "/projects/portfolio.jpg",
-            tags: ["React", "GSAP", "Three.js"],
-            link: "https://project2.com",
+            tags: ["React", "API", "Tailwind CSS", "Stripe", "CoinGecko API"],
+            link: "https://project1.com",
             featured: true,
             highlights: [
-                "Integrated complex 3D WebGL scenes",
-                "Custom stagger animations with GSAP",
-                "Dark mode toggle with local storage"
-            ]
-        },
-        {
-            id: 3,
-            title: "Mobile Banking App",
-            description: "Intuitive mobile banking interface with focus on accessibility",
-            image: "/projects/banking.jpg",
-            tags: ["Figma", "React Native", "UI Design"],
-            link: "https://project3.com",
-            featured: false,
-            highlights: [
-                "Designed comprehensive design system",
-                "Conducted user testing with 50+ participants",
-                "Achieved WCAG 2.1 AA accessibility compliance"
-            ]
-        },
-        {
-            id: 4,
-            title: "SaaS Dashboard",
-            description: "Analytics dashboard with data visualization and real-time updates",
-            image: "/projects/dashboard.jpg",
-            tags: ["React", "D3.js", "TypeScript"],
-            link: "https://project4.com",
-            featured: true,
-            highlights: [
-                "Real-time data processing with WebSockets",
-                "Custom interactive charts and graphs",
-                "Role-based access control system"
+                "Implemented secure payment gateway integration",
+                "Optimized page load speed by 40%",
+                "Built responsive mobile-first UI"
             ]
         },
     ],

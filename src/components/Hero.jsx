@@ -22,7 +22,7 @@ const Hero = () => {
 
                     <div className="space-y-4 md:space-y-2">
                         <h2 className="text-zinc-400 text-lg md:text-xl font-medium tracking-wide">HELLO, I'M</h2>
-                        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white uppercase leading-[1.1] break-words">
+                        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white uppercase leading-[1.1] wrap-break-words">
                             {portfolioData.personal.name}
                         </h1>
                         <h3 className="text-2xl md:text-4xl font-bold text-zinc-500 uppercase leading-none">
@@ -63,9 +63,15 @@ const Hero = () => {
                             <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                         </a>
 
-                        <a href="/resume.pdf" className="px-6 py-3 border border-zinc-700 text-zinc-300 hover:text-white hover:border-white rounded-sm text-sm font-medium uppercase tracking-wider transition-all w-fit">
+                        <a 
+                            href="/Rushabh_Nandanwar_Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3 border border-zinc-700 text-zinc-300 hover:text-white hover:border-white rounded-sm text-sm font-medium uppercase tracking-wider transition-all w-fit"
+                        >
                             Resume <span className="text-zinc-500 ml-2">↓</span>
                         </a>
+
                     </div>
                 </div>
 
