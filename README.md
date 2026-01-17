@@ -1,16 +1,76 @@
-# React + Vite
+# Rushabh Nandanwar - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website showcasing my
+projects, skills, and experience as a Designer and Web Developer. Built
+with a focus on clean UI, smooth user experience, and professional
+presentation.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Portfolio](#)\
+*(LINK)*
 
-## React Compiler
+## 📌 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio represents my journey as an IT engineering student
+passionate about web development and UI/UX design. It highlights my
+featured projects, technical skills, volunteer experience, and contact
+information --- all in one clean digital space.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React.js\
+-   Tailwind CSS\
+-   JavaScript\
+-   HTML & CSS\
+-   Figma (for UI/UX design)
+
+## ✨ Features
+
+-   Fully responsive design\
+-   Smooth scroll animations\
+-   Clean and minimal dark theme\
+-   Project showcase section\
+-   Contact form integration
+
+## 📂 Folder Structure
+
+    /src
+      /assets        → Images and media
+      /components    → Reusable UI components
+      /data          → Portfolio content data
+      /hooks         → Custom animation hooks
+
+## 🚀 How to Run Locally
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/rushabh-portfolio.git
+    ```
+
+2.  **Navigate to project folder**
+    ```bash
+    cd resume
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+4.  **Start development server**
+    ```bash
+    npm run dev
+    ```
+
+## 📬 Contact
+
+If you'd like to collaborate or discuss opportunities, feel free to
+reach out:
+
+📧 Email: rushabhnandanwar2005@gmail.com\
+📍 Nagpur, India
+
+------------------------------------------------------------------------
+
+⭐ If you like this portfolio, don't forget to give the repo a star!
