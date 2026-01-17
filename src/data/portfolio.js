@@ -50,12 +50,11 @@ export const portfolioData = {
     projects: [
         {
             id: 1,
-            title: "CryptoTracker",
-            description: `A cryptocurrency tracking web app that displays real-time market data of various coins.
-            Built using React, Tailwind CSS, and integrated with the CoinGecko API for fetching live crypto prices and info.`,
-            image: "/projects/ecommerce.jpg",
-            tags: ["React", "API", "Tailwind CSS", "Stripe", "CoinGecko API"],
-            link: "https://project1.com",
+            title: "Portfolio Website",
+            description: `Developed a modern, responsive personal portfolio website to showcase projects, skills, and experience, featuring a clean dark-themed UI and smooth user interactions for professional presentation.`,
+            image: "/projects/portfolio.jpg",
+            tags: ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS", "Figma"],
+            link: "https://testing-resume-tau.vercel.app/",
             featured: true,
             highlights: [
                 "Implemented secure payment gateway integration",
@@ -65,12 +64,25 @@ export const portfolioData = {
         },
         {
             id: 2,
-            title: "Portfolio Website",
-            description: `A portfolio website that displays my work and skills.
-            Built using React, Tailwind CSS, and integrated with the CoinGecko API for fetching live crypto prices and info.`,
-            image: "/projects/portfolio.jpg",
-            tags: ["React", "API", "Tailwind CSS", "Stripe", "CoinGecko API"],
-            link: "https://project1.com",
+            title: "Digital Restaurant Menu",
+            description: `Developed a mobile-first digital menu web application for a Saoji restaurant to simplify large order handling by enabling customers to save orders and view real-time total amounts. Implemented category filtering, cart management, and a responsive dark-themed UI using React and Tailwind CSS.`,
+            image: "/projects/ecommerce.jpg",
+            tags: ["React.js (Vite)", "Tailwind CSS", "React Router", "Context API", "Lucide Icons"],
+            link: "https://nandu-saoji-bhojnalaya.vercel.app/",
+            featured: true,
+            highlights: [
+                "Implemented secure payment gateway integration",
+                "Optimized page load speed by 40%",
+                "Built responsive mobile-first UI"
+            ]
+        },
+        {
+            id: 3,
+            title: "CryptoTracker",
+            description: `Developed a real-time cryptocurrency tracking web application using React and the CoinGecko API, providing live price updates, historical trend charts, and multi-currency support through a responsive glassmorphism-based UI.`,
+            image: "/projects/ecommerce.jpg",
+            tags: ["React.js", "Tailwind CSS", "CoinGecko API", "React Google Charts", "React Router DOM", "SVG Assets" ],
+            link: "https://crypto-minning.vercel.app/",
             featured: true,
             highlights: [
                 "Implemented secure payment gateway integration",

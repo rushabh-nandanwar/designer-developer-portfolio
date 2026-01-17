@@ -53,7 +53,7 @@ const Projects = () => {
                             </p>
 
                             <div className="mb-10">
-                                <h4 className="text-sm font-bold text-white uppercase tracking-widest mb-6 border-b border-zinc-800 pb-2 inline-block">
+                                {/* <h4 className="text-sm font-bold text-white uppercase tracking-widest mb-6 border-b border-zinc-800 pb-2 inline-block">
                                     Key Highlights
                                 </h4>
                                 <div className="grid md:grid-cols-2 gap-x-8 gap-y-4">
@@ -63,7 +63,7 @@ const Projects = () => {
                                             <p className="text-zinc-400 text-sm leading-relaxed">{highlight}</p>
                                         </div>
                                     ))}
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="mb-12">
