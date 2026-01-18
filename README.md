@@ -8,7 +8,7 @@ presentation.
 ## 🌐 Live Preview
 
 [View Portfolio](#)\
-*(LINK)*
+*(https://rushabh-portfolio-website.vercel.app/)*
 
 ## 📌 About
 
